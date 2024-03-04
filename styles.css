@@ -6,6 +6,8 @@
         line-height: 24px;
         color: #55206D;
         margin:10px;
+        margin:0px;
+        padding:0px;
     }
     
     #contacts{
@@ -37,12 +39,12 @@
         font-size: 25px;
         line-height: 32px;
     }
-    
+    #button-contact{
+        text-align:right;
+    }
     button{
         width: 138px;
         height: 44px;
-        top: 456px;
-        left: 190px;
         border-radius: 4px;
         font-family: Inter;
         font-size: 16px;
@@ -60,14 +62,27 @@
         max-width: 1440px;
     }
     
-    
+    #intro-left{
+        padding:10px;
+    }
+
+    #intro-right{
+        padding-bottom: 0;
+        padding-right: 0;
+        max-width: 798px;
+        text-align: center;
+    }
+
     img{
         border-top-right-radius: 20%;
         border-top-right-radius: 20%;
         border-bottom-left-radius: 20%;
         border-bottom-right-radius: 20%;
-        height: 200px;
-
+        height:auto;
+        width: auto;
+        max-height: 370px;
+        max-width: 370px;
+        padding-top: 60px;
     }
     
     #what-I-do{
@@ -79,6 +94,7 @@
         margin:0 auto;
         max-width: 1440px;
         border-color: white ;
+        padding: auto;
     }
     
     .section-title{
@@ -155,8 +171,13 @@
         line-height: 27px;
         letter-spacing: 0em;
         text-align: center;
+        padding-left: auto;
     }
     
+    .project-box-content{
+        text-align: center;
+    }
+
     h3{
         font-family: Inter;
         font-size: 18px;
@@ -164,20 +185,19 @@
         line-height: 27px;
         letter-spacing: 0em;
         color: black;
+        text-align: center;
     }
     #my-projects-box{
         margin:0 auto;
         max-width: 1440px;
-    }
-    
-    #projects-1{
-        display: flex;
+        padding-left: auto;
     }
     
     #project1{
         background-color: blueviolet !important;
         border: 50px solid #FFF8F0 ;
         border-radius: 10px;
+        border-bottom: 15px solid #FFF8F0;
         font-family: Inter;
         font-size: 18px;
         font-weight: 600;
@@ -187,15 +207,15 @@
         color: white;
         padding: 40px;
     }
-    
-    #projects-2{
-        display: flex;
+    #project-1{
+        padding-left: 10px;
     }
     
     #project2{
         background-color: brown !important;
         border: 50px solid #FFF8F0 ;
         border-radius: 10px;
+        border-bottom: 15px solid #FFF8F0;
         font-family: Inter;
         font-size: 18px;
         font-weight: 600;
@@ -205,15 +225,16 @@
         color: white;
         padding: 40px;
     }
-    
-    #projects-3{
-        display: flex;
+    #project-2{
+        text-align: center;
     }
+    
     
     #project3{
         background-color: black !important;
         border: 50px solid #FFF8F0 ;
         border-radius: 10px;
+        border-bottom: 15px solid #FFF8F0;
         font-family: Inter;
         font-size: 18px;
         font-weight: 600;
@@ -223,9 +244,13 @@
         color: white;
         padding: 40px;
     }
+    #project-3{
+        text-align: center;
+    }
     
     #footer{
         background-color: black;
+        padding:10px;
     }
     
     #footer-text{
@@ -241,7 +266,32 @@
         margin:0 auto;
         max-width: 1440px;
         border-color: white ;
+        padding: 10px;
+        padding-bottom: 60px;
     }
+
+    a {
+        outline-color: transparent;
+        text-decoration: none;
+        padding: 2px 1px 0;
+      }
+      
+      a:link {
+        color: blue;
+      }
+      
+      a:visited {
+        color: purple;
+      }
+      
+      a:focus,
+      a:hover {
+        border-bottom: 1px solid;
+      }
+      
+      a:active {
+        color: red;
+      }
     
 }
 
