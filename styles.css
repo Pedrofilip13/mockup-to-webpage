@@ -4,7 +4,7 @@ body{
     font-weight: 400;
     line-height: 24px;
     color: #55206D;
-    margin-top: 0;
+    margin:0;
 }
 
 #contacts{
@@ -83,6 +83,7 @@ img{
     display: flex;
     margin:0 auto;
     max-width: 1440px;
+    border-color: white ;
 }
 
 .section-title{
@@ -94,6 +95,7 @@ img{
     text-align: left;
     color:#2858FF;
     text-align: center;
+    padding-top: 50px;
 }
 
 h2{
@@ -103,9 +105,146 @@ h2{
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0em;
-    text-align: center;    
-    height: 195px;
+    text-align: center; 
     top: 696px;
-    left: 370px;    
-
+    left: 370px;
+    margin-top: 2px;
+    margin-bottom:8px;
 }
+
+#breif-what-I-do{
+    padding-bottom: 40px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.box{
+    background-color: white !important;
+    border: 50px solid #FFF8F0 ;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #55206D;
+}
+
+#what-I-do-box{
+    margin:0 auto;
+    max-width: 1440px;
+}
+
+#breif-my-projects{
+    padding-bottom: 40px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+h3{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: black;
+}
+#my-projects-box{
+    margin:0 auto;
+    max-width: 1440px;
+}
+
+#projects-1{
+    display: flex;
+}
+
+#project1{
+    background-color: blueviolet !important;
+    border: 50px solid #FFF8F0 ;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+#projects-2{
+    display: flex;
+}
+
+#project2{
+    background-color: brown !important;
+    border: 50px solid #FFF8F0 ;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+#projects-3{
+    display: flex;
+}
+
+#project3{
+    background-color: black !important;
+    border: 50px solid #FFF8F0 ;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+#footer{
+    background-color: black;
+}
+
+#footer-text{
+    color:white !important;
+    margin:auto;
+}
+
+body{
+    margin-bottom: 0;
+}
+
+#projects{
+    margin:0 auto;
+    max-width: 1440px;
+    border-color: white ;
+}
+
