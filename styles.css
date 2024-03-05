@@ -4,12 +4,13 @@
         background: #FFF8F0;
         font-weight: 400;
         line-height: 24px;
-        color: #55206D;
-        margin:10px;
+        color: #55206D;        
         margin:0px;
         padding:0px;
     }
     
+    /* Hero section */
+
     #contacts{
         font-family: Inter;
         font-size: 17px;
@@ -84,6 +85,9 @@
         max-width: 370px;
         padding-top: 60px;
     }
+    /* End of hero section */
+
+    /* What I do section */
     
     #what-I-do{
         margin-top: 100px;
@@ -187,14 +191,21 @@
         color: black;
         text-align: center;
     }
+    /* End What I do section */
+
+    /* Projects section */
+
     #my-projects-box{
         margin:0 auto;
         max-width: 1440px;
         padding-left: auto;
     }
-    
-    #project1{
-        background-color: blueviolet !important;
+
+    #project-1, #project-2, #project-3{
+        text-align: center;
+    }
+
+    #project1, #project2, #project3{
         border: 50px solid #FFF8F0 ;
         border-radius: 10px;
         border-bottom: 15px solid #FFF8F0;
@@ -207,60 +218,18 @@
         color: white;
         padding: 40px;
     }
-    #project-1{
-        padding-left: 10px;
-    }
+    
+    #project1{
+        background-color: blueviolet !important;        
+    }    
     
     #project2{
         background-color: brown !important;
-        border: 50px solid #FFF8F0 ;
-        border-radius: 10px;
-        border-bottom: 15px solid #FFF8F0;
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 27px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: white;
-        padding: 40px;
-    }
-    #project-2{
-        text-align: center;
-    }
-    
+    }   
     
     #project3{
         background-color: black !important;
-        border: 50px solid #FFF8F0 ;
-        border-radius: 10px;
-        border-bottom: 15px solid #FFF8F0;
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 27px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: white;
-        padding: 40px;
-    }
-    #project-3{
-        text-align: center;
-    }
-    
-    #footer{
-        background-color: black;
-        padding:10px;
-    }
-    
-    #footer-text{
-        color:white !important;
-        margin:auto;
-    }
-    
-    body{
-        margin-bottom: 0;
-    }
+    }    
     
     #projects{
         margin:0 auto;
@@ -292,7 +261,19 @@
       a:active {
         color: red;
       }
+    /*End of project section */
+
+    /* Footer */
     
+    #footer{
+        background-color: black;
+        padding:10px;
+    }
+    
+    #footer-text{
+        color:white !important;
+        margin:auto;
+    }
 }
 
 @media screen and (min-width: 1300px){
@@ -303,6 +284,7 @@
         line-height: 24px;
         color: #55206D;
         margin:0;
+        margin-bottom: 0;
     }
     
     #contacts{
@@ -468,76 +450,41 @@
         letter-spacing: 0em;
         color: black;
     }
+
+    /* Projects section */
     #my-projects-box{
         margin:0 auto;
         max-width: 1440px;
     }
-    
-    #projects-1{
+
+    #projects-1,#projects-2,#projects-3{
         display: flex;
+    }
+
+    #project1,#project2,#project3{
+        border: 50px solid #FFF8F0 ;
+        border-radius: 10px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        padding: 40px;
     }
     
     #project1{
         background-color: blueviolet !important;
-        border: 50px solid #FFF8F0 ;
-        border-radius: 10px;
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 27px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: white;
-        padding: 40px;
-    }
-    
-    #projects-2{
-        display: flex;
     }
     
     #project2{
         background-color: brown !important;
-        border: 50px solid #FFF8F0 ;
-        border-radius: 10px;
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 27px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: white;
-        padding: 40px;
-    }
-    
-    #projects-3{
-        display: flex;
+        
     }
     
     #project3{
         background-color: black !important;
-        border: 50px solid #FFF8F0 ;
-        border-radius: 10px;
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 27px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: white;
-        padding: 40px;
-    }
-    
-    #footer{
-        background-color: black;
-    }
-    
-    #footer-text{
-        color:white !important;
-        margin:auto;
-    }
-    
-    body{
-        margin-bottom: 0;
     }
     
     #projects{
@@ -545,11 +492,12 @@
         max-width: 1440px;
         border-color: white ;
     }
-    a {
+
+    a{
         outline-color: transparent;
         text-decoration: none;
         padding: 2px 1px 0;
-      }
+    }
       
       a:link {
         color: blue;
@@ -567,4 +515,15 @@
       a:active {
         color: red;
       }
+    /*End of project section */
+
+    /* Footer */
+    #footer{
+        background-color: black;
+    }
+    
+    #footer-text{
+        color:white !important;
+        margin:auto;
+    }
 }
