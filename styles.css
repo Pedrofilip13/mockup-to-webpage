@@ -263,6 +263,45 @@
       }
     /*End of project section */
 
+    /* Pricing section */
+
+    #pricing-box{
+        margin:0 auto;
+        max-width: 1440px;
+    }
+
+    #breif-pricing{
+        padding-bottom: 40px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #offers-display{
+        margin:0 auto;
+        max-width: 1440px;
+        border-color: white ;
+    }
+
+    .offer{
+        background-color: white !important;
+        border: 50px solid #FFF8F0 ;
+        border-radius: 10px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+        padding: 10px;
+    }
+
+    /* End of pricing section */
+
     /* Footer */
     
     #footer{
@@ -516,6 +555,46 @@
         color: red;
       }
     /*End of project section */
+
+    /* Pricing section */
+
+    #pricing-box{
+        margin:0 auto;
+        max-width: 1440px;
+    }
+
+    #breif-pricing{
+        padding-bottom: 40px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #offers-display{
+        display: flex;
+        margin:0 auto;
+        max-width: 1440px;
+        border-color: white ;
+    }
+
+    .offer{
+        background-color: white !important;
+        border: 50px solid #FFF8F0 ;
+        border-radius: 10px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+        padding: 10px;
+    }
+
+    /* End of pricing section */
 
     /* Footer */
     #footer{
