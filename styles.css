@@ -473,6 +473,11 @@
         margin-top: 2px;
         margin-bottom:8px;
     }
+
+    #what-I-do-box{
+        padding-left: 27%;     
+        padding-right: 27%; 
+    }
     
     #breif-what-I-do{
         padding-bottom: 40px;
@@ -535,8 +540,8 @@
 
     /* Projects section */
     #my-projects-box{
-        margin:0 auto;
-        max-width: 1440px;
+        padding-left: 27%;     
+        padding-right: 27%; 
     }
 
     #projects-1,#projects-2,#projects-3{
@@ -602,8 +607,8 @@
     /* Pricing section */
 
     #pricing-box{
-        margin:0 auto;
-        max-width: 1440px;
+        padding-left: 27%;     
+        padding-right: 27%; 
     }
 
     #breif-pricing{
@@ -679,6 +684,57 @@
     }
 
     /* End of pricing section */
+
+    /* Frequently asked questions section */
+
+    #question{
+        padding-left: 27%;     
+        padding-right: 27%; 
+    }
+
+    #questions-box{
+        margin:0 auto;
+        max-width: 1440px;
+    }
+
+    #breif-questions{
+        padding-bottom: 40px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #questions-display{
+        margin:0 auto;
+        max-width: 1440px;
+        border-color: white ;
+        padding-bottom: 40px;
+    }
+    details {
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        padding: 0.5em 0.5em 0;
+      }
+      
+      summary {
+        font-weight: bold;
+        margin: -0.5em -0.5em 0;
+        padding: 0.5em;
+      }
+      
+      details[open] {
+        padding: 0.5em;
+      }
+      
+      details[open] summary {
+        border-bottom: 1px solid #aaa;
+        margin-bottom: 0.5em;
+      }
+
+    /* End of frequently asked questions section */
 
     /* Footer */
     #footer{
